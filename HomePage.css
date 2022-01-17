@@ -1,3 +1,58 @@
-h1 {
-  color: red;
+body{
+    font-family: 'Heebo', sans-serif;
+    color: white;
+    background-color: #121212;
+    margin: 0;
+  padding: 0;
+ }
+.navbar{
+    padding-left:0;
 }
+#dropdownMenuLink{
+    background-color: #282828;
+    max-height: 36px;
+    font-size: 12px;
+    border-radius: 50px;
+    color: white;
+}
+#profilePic{
+    width: 25px;
+    height: 25px;
+    border-radius:50%;
+}
+.profile{
+    font-size: 13px;
+    weight: 400;
+ }
+.chevron{
+    width: 32px;
+    height: 32px;
+    color:#DDD3D2;
+    padding: 5px;
+    font-size:1rem;
+    border-radius: 50%;
+    background-color: #282828;
+}
+a{
+    color: rgba(10, 8, 109, 0);
+}
+.top-title{
+    margin-top: 36px;
+    weight: 700;
+    font-size: 32px;
+    margin-bottom: 26px;
+}
+.top-container{
+    background: rgb(60,10,10);
+background: linear-gradient(0deg, rgba(60,10,10,1) 0%, rgba(5,0,0,1) 100%);
+
+}
+.img-top{
+    margin-bottom: 12px;
+    max-width: 67px;
+}
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: horizontal;
+  }
