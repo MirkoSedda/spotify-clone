@@ -1,0 +1,35 @@
+* {
+  font-family: 'Heebo', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.m-full-height {
+  height: 100vh;
+}
+
+.light-gray-text {
+  color: lightgray;
+}
+
+.m-text-smaller {
+  font-size: 0.25rem;
+}
+
+.m-text-small,
+.m-bi-spotify,
+.m-bi-house-fill,
+.m-bi-search,
+.m-bi-search,
+.m-bi-plus-square,
+.m-bi-people-fill,
+.m-bi-arrow-down-circle-fill {
+  font-size: 0.35rem;
+}
+
+.m-truncate {
+  width: 40px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
