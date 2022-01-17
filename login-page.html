@@ -41,8 +41,10 @@
           <hr />
         </div>
         <div class="container text-center">
-          <h6 class="fw-bold h3 mb-4">To continue, login to Spotify</h6>
-          <div class="d-flex flex-column justify-content-center">
+          <h6 class="fw-bold h3 mt-5 mb-4">To continue, login to Spotify</h6>
+          <div
+            class="d-flex flex-column justify-content-center align-items-center"
+          >
             <button
               class="mb-4 btn btn-primary fb-btn d-flex justify-content-center align-items-center"
             >
@@ -56,6 +58,60 @@
               <span class="fw-bold ms-1">CONTINUE WITH APPLE</span>
             </button>
           </div>
+          <h5 class="mt-4 hr fw-bold">OR</h5>
+          <div class="input-group mt-3 mb-4">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Email address or username"
+              aria-label="Username"
+              aria-describedby="basic-addon1"
+            />
+          </div>
+          <div class="input-group mt-3 mb-3">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Password"
+              aria-label="Username"
+              aria-describedby="basic-addon1"
+            />
+          </div>
+          <div class="d-flex justify-content-between">
+            <div
+              class="form-check d-flex justify-content-start align-items-center"
+            >
+              <input
+                class="form-check-input me-3"
+                type="checkbox"
+                value=""
+                id="flexCheckChecked"
+              />
+              <label class="form-check-label" for="flexCheckChecked">
+                Remember me
+              </label>
+            </div>
+            <button class="btn btn-login h1 fw-bold me-5">LOG IN</button>
+          </div>
+          <h4 class="mt-5 orange">Forgot your password?</h4>
+          <hr class="mt-4" />
+          <h5 class="mt-5 fw-bold">Don't have an account?</h5>
+          <button
+            class="mb-4 mt-4 btn spotify-btn d-flex justify-content-center align-items-center"
+          >
+            <i
+              class="bi bi-spotify me-2 h3 text-white d-flex align-items-center"
+            ></i>
+            <span class="fw-bold ms-1 text-white">SIGN UP FOR SPOTIFY</span>
+          </button>
+          <hr class="mt-5" />
+          <span class="text-muted"
+            >If you click "Login with Facebook" and are not a spotify user, you
+            will be registered and you agree to Spotify's
+            <span class="orange">Terms & Conditions</span> and
+            <span class="orange">Privacy Policy</span>
+          </span>
+          <!-- end of container -->
         </div>
       </main>
     </section>
