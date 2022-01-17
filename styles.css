@@ -1,3 +1,19 @@
-h1 {
-  color: red;
+#HomePageBody {
+  background: rgb(24, 24, 25);
+  background: -moz-linear-gradient(
+    0deg,
+    rgba(24, 24, 25, 0.9724264705882353) 57%,
+    rgba(117, 11, 115, 0.8127626050420168) 100%
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(24, 24, 25, 0.9724264705882353) 57%,
+    rgba(117, 11, 115, 0.8127626050420168) 100%
+  );
+  background: linear-gradient(
+    0deg,
+    rgba(24, 24, 25, 0.9724264705882353) 57%,
+    rgba(117, 11, 115, 0.8127626050420168) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#181819",endColorstr="#750b73",GradientType=1);
 }
