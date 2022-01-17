@@ -16,4 +16,46 @@
     rgba(117, 11, 115, 0.8127626050420168) 100%
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#181819",endColorstr="#750b73",GradientType=1);
+  color: white;
+}
+
+.artist-name-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  align-content: center;
+  width: 100%;
+  margin-top: 70px;
+}
+
+/* .bigPlayIconBG {
+  border-radius: 50%;
+  background-color: rgb(73, 180, 12);
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+
+.bigPlayIconTriangle {
+  width: 0;
+  height: 0;
+  border-top: 13px solid transparent;
+  border-bottom: 13px solid transparent;
+
+  border-left: 13px solid white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+} */
+
+.bi-suit-heart,
+.bi-three-dots,
+.bi-play-circle-fill {
+  font-size: 2rem;
+}
+
+.bi-play-circle-fill {
+  color: green;
 }

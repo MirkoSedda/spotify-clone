@@ -12,37 +12,68 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./AlbumPageStyle.css" />
 
     <title>Album Page</title>
   </head>
   <body>
     
-    <section >
+    <section>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-2">
+          <div class="col-md-2">
             <!-- sidebar Here -->
             
           </div>
-          <div id="HomePageBody" class="col-10">
+          <div id="HomePageBody" class="col-md-10">
             <nav>
               
             </nav>
-            <img class="img-fluid d-inline-flex" width="200px" src="https://m.media-amazon.com/images/I/61dk4SHy1CL._SL1080_.jpg" alt="albumPhoto">
 
-
-
+            <!-- TITLE PART -->
+            <div class="artist-name-container">
+              <img class="img-fluid d-inline-flex" width="200px" src="https://m.media-amazon.com/images/I/61dk4SHy1CL._SL1080_.jpg" alt="albumPhoto">
+                  <div class="ml-3">
+                    <h6>ALBUM</h6>
+                    <h2  style="font-size: 45px" >Bohemian Rhapsody(The Original Soundrack)</h2>
+                    <h6>
+                        <span><img class="rounded-circle img-fluid" width="23px"src="https://www.aqueenofmagic.com/wp-content/uploads/2020/12/Queen-mid-70s-approved-photo-04-web-optimised-1000.jpg" alt="Band Logo"></span>
+                          Queen <span class="text-muted">· 2018 · 22songs,1 hr 10 min</span>
+                    </h6>
+                </div>   
           </div>
+
+          <!-- MIDDLE PART....ICONS -->
+        <section>
+          <!-- <div class="bigPlayIconBG">
+            <div class ="bigPlayIconTriangle"></div> 
+          </div> -->
+          <i class="bi bi-play-circle-fill"></i>
+          <i class="bi bi-suit-heart"></i>
+          <i class="bi bi-three-dots"></i>
+        </section>
+        
+        <!-- SONGS -->
+        <section> 
+          <span>#</span>
+          <span>TITLE</span>
+
+        </section>
+
+
+
         </div>
       </div>
-
     </section>
+
+
+
     
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"></script>
-    <script src="index.js"></script>
+    <script src="AlbumPage.js"></script>
   </body>
 </html>
