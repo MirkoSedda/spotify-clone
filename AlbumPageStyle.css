@@ -61,6 +61,11 @@
 
 .bi-play-circle-fill {
   color: green;
+  background: white;
+}
+
+hr {
+  border-color: #6c757d2a;
 }
 /* dot remover from OL */
 ol .songsList {
