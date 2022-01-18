@@ -6,8 +6,9 @@
 
 /* sidebar classes */
 
-.m-sidebar-height {
+.m-sidebar {
   height: 90vh;
+  background-color: black !important;
 }
 
 .light-gray-text {
@@ -57,7 +58,7 @@
 
 .m-music-player-section-height {
   height: 10vh;
-  background-color: black;
+  background-color: black !important;
 }
 
 .m-bi-heart,
