@@ -14,23 +14,35 @@
   color: lightgray;
 }
 
-.gray-text {
+.dark-gray-text {
+  color: white;
+  opacity: 0.5;
+}
+
+.mid-gray-text {
   color: white;
   opacity: 0.7;
 }
 
 .m-text-smaller {
-  font-size: 1rem;
+  font-size: 0.8rem;
+}
+
+.text-1-three-rem {
+  font-size: 1.3rem;
+}
+
+.m-bi-spotify {
+  font-size: 2rem;
 }
 
 .m-text-small,
-.m-bi-spotify,
 .m-bi-house-fill,
 .m-bi-search,
 .m-bi-search,
 .m-bi-plus-square,
 .m-bi-people-fill,
-.m-bi-arrow-down-circle-fill {
+.m-bi-arrow-down-circle {
   font-size: 1rem;
 }
 
