@@ -4,32 +4,71 @@
   padding: 0;
 }
 
-.m-full-height {
-  height: 100vh;
+/* sidebar classes */
+
+.m-sidebar-height {
+  height: 90vh;
 }
 
 .light-gray-text {
   color: lightgray;
 }
 
+.dark-gray-text {
+  color: white;
+  opacity: 0.5;
+}
+
+.mid-gray-text {
+  color: white;
+  opacity: 0.7;
+}
+
 .m-text-smaller {
-  font-size: 0.25rem;
+  font-size: 0.8rem;
+}
+
+.text-1-three-rem {
+  font-size: 1.3rem;
+}
+
+.m-bi-spotify {
+  font-size: 2rem;
 }
 
 .m-text-small,
-.m-bi-spotify,
 .m-bi-house-fill,
 .m-bi-search,
 .m-bi-search,
 .m-bi-plus-square,
 .m-bi-people-fill,
-.m-bi-arrow-down-circle-fill {
-  font-size: 0.35rem;
+.m-bi-arrow-down-circle {
+  font-size: 1rem;
 }
 
 .m-truncate {
-  width: 40px;
+  width: 140px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+/* music player classes */
+
+.m-music-player-section-height {
+  height: 10vh;
+  background-color: black;
+}
+
+.m-bi-heart,
+.m-bi-tv,
+.m-bi-shuffle {
+  font-size: 1rem;
+}
+
+.m-bi-play-circle-fill {
+  font-size: 2rem;
+}
+
+.left-side {
 }
