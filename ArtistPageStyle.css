@@ -1,0 +1,70 @@
+#HomePageBody {
+  background: rgb(24, 24, 25);
+  background: -moz-linear-gradient(
+    0deg,
+    rgba(24, 24, 25, 0.9724264705882353) 57%,
+    rgba(117, 11, 115, 0.8127626050420168) 100%
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(24, 24, 25, 0.9724264705882353) 57%,
+    rgba(117, 11, 115, 0.8127626050420168) 100%
+  );
+  background: linear-gradient(
+    0deg,
+    rgba(24, 24, 25, 0.9724264705882353) 57%,
+    rgba(117, 11, 115, 0.8127626050420168) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#181819",endColorstr="#750b73",GradientType=1);
+  color: white;
+
+  font-family: "Heebo", sans-serif; /* choose one */
+}
+.albumWord {
+  margin-bottom: 0;
+  font-size: 10px;
+}
+
+.albumTitle {
+  font-size: 30px;
+}
+.bandLogo {
+  height: 20px;
+  width: 20px;
+}
+.infoAlbum {
+  font-size: 13px;
+}
+
+.artist-name-container {
+}
+
+.bi-heart,
+.bi-three-dots,
+.bi-play-circle-fill {
+  font-size: 2rem;
+}
+
+.bi-play-circle-fill {
+  color: green;
+  /* background: white; */
+}
+
+.titleUnderline {
+  border-color: #6c757d2a;
+}
+.listNumber {
+  margin-top: 9px;
+}
+/* mouseover-songs */
+.highLighting {
+  background: rgba(100, 98, 98, 0.692);
+}
+.listPlay {
+  width: 0;
+  height: 0;
+  border-top: 9px solid transparent;
+  border-bottom: 9px solid transparent;
+  border-left: 9px solid white;
+}
+/* -------- */
