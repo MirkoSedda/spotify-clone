@@ -22,11 +22,18 @@
 }
 .albumWord {
   margin-bottom: 0;
-  font-size: 12px;
+  font-size: 10px;
 }
 
 .albumTitle {
-  font-size: 45px;
+  font-size: 30px;
+}
+.bandLogo {
+  height: 20px;
+  width: 20px;
+}
+.infoAlbum {
+  font-size: 13px;
 }
 
 .artist-name-container {
@@ -38,29 +45,7 @@
   margin-top: 70px;
 }
 
-/* .bigPlayIconBG {
-  border-radius: 50%;
-  background-color: rgb(73, 180, 12);
-  width: 50px;
-  height: 50px;
-  position: relative;
-}
-
-.bigPlayIconTriangle {
-  width: 0;
-  height: 0;
-  border-top: 13px solid transparent;
-  border-bottom: 13px solid transparent;
-
-  border-left: 13px solid white;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-} */
-
-.bi-suit-heart,
+.bi-heart,
 .bi-three-dots,
 .bi-play-circle-fill {
   font-size: 2rem;
@@ -68,23 +53,24 @@
 
 .bi-play-circle-fill {
   color: green;
-  background: white;
+  /* background: white; */
 }
 
-hr {
+.titleUnderline {
   border-color: #6c757d2a;
 }
-/* dot remover from OL */
-ol .songsList {
-  counter-reset: item;
-  list-style-type: none;
+.listNumber {
+  margin-top: 9px;
 }
-.songsList > li {
-  display: block;
+/* mouseover-songs */
+.highLighting {
+  background: rgba(100, 98, 98, 0.692);
 }
-
-.songsList > li:before {
-  content: counter(item) "  ";
-  counter-increment: item;
+.listPlay {
+  width: 0;
+  height: 0;
+  border-top: 9px solid transparent;
+  border-bottom: 9px solid transparent;
+  border-left: 9px solid white;
 }
-/* ---- */
+/* -------- */
