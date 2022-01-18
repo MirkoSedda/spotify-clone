@@ -45,7 +45,9 @@
   margin-top: 70px;
 }
 
-.bi-heart,
+.bi-heart {
+  font-size: 1.8rem;
+}
 .bi-three-dots,
 .bi-play-circle-fill {
   font-size: 2rem;
@@ -72,5 +74,7 @@
   border-top: 9px solid transparent;
   border-bottom: 9px solid transparent;
   border-left: 9px solid white;
+  margin-top: 17px;
 }
+
 /* -------- */
