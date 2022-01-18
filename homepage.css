@@ -85,3 +85,10 @@
   border-bottom-right-radius: 50px;
   background-color: grey;
 }
+
+.m-music-player3 {
+  height: 10px;
+  width: 100px;
+  border-radius: 50px;
+  background-color: lightgray;
+}
