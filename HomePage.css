@@ -1,10 +1,14 @@
 body{
     font-family: 'Heebo', sans-serif;
     color: white;
-    background-color: #121212;
+    background: rgb(18,18,18);
+background: linear-gradient(0deg, rgba(18,18,18,1) 70%, rgba(28,4,4,1) 84%, rgba(50,3,3,0.9808298319327731) 93%);
     margin: 0;
     padding: 0;
+    visibility: 100%;
  }
+
+
 .navbar{
     padding-left:0;
     margin-right: 15px;
@@ -44,8 +48,8 @@ body{
     margin-bottom: 26px;
 }
 .top-container{
-    background: rgb(5,0,0);
-    background: linear-gradient(0deg, rgba(5,0,0,1) 0%, rgba(28,4,4,1) 35%, rgba(60,10,10,0.9808298319327731) 90%);
+    
+    
     
 }
 .img-top{
@@ -72,14 +76,47 @@ text-overflow: ellipsis;
     background-color: rgba(161, 158, 158, 0.192)
 }
 .mid-title{
-    background-color: #121212;
+    
     font-size: 24px;
     line-height: 28px;
     font-weight: 700;
     color: white;
-    padding-top: 44px;
-}
+    padding-top: 22px;
+} 
+.see-all{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 700;
+    color: white;
+    padding-top: 18px;
+
+}    
+
 .home-container{
-    padding-top: 44px;
-    background-color: #121212;
+    padding-top: 18px;
+    
+}
+.card-container{
+ width: 10rem;
+ height: 260px;
+ border: 1px solid #2422228e;
+ background-color: #2422228e;
+ }
+.card-container:hover{
+    background: rgba(64, 64, 64, 0.61);
+    background-color: radial-gradient(circle, rgba(64, 64, 64, 0.568) 1%, rgba(53, 53, 53, 0.486) 49%, rgba(48, 48, 48, 0.507) 94%);
+    /* Firefox */
+    -moz-transition: all 0.3s ease-in;
+    /* WebKit */
+    -webkit-transition: all 0.3s ease-in;
+    /* Opera */
+    -o-transition: all 0.3s ease-in;
+    /* Standard */
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+    
+  
+} 
+.img-card{
+    width: 100%;
 }
