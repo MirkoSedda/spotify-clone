@@ -1,11 +1,13 @@
-const numToPlay = function(){
-    numNode= document.querySelectorAll(".listNumber")
-    for(let i =0;i<numNode.lengh;i++){
-        numNode[i]
+const songHighliter = function(){
+    songNode= document.getElementsByClassName("song")
+    for(let i =0;i<songNode.length;i++){
+        songNode[i].addEventListener("mouseover",function(e){
+            songNode.classList.toggle("highLighting")
+        })
     }
 }   
 
-// numToPlay()
+ songHighliter()
 
 // onmouseover , , add like heart icon with margin right, add three dots icon with margin left
 
