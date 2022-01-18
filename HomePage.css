@@ -118,6 +118,9 @@ text-overflow: ellipsis;
     
   
 } 
+.card-text1{
+    width: 125px;
+}
 .img-card{
     width:100%
     
