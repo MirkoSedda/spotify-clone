@@ -53,9 +53,16 @@
   font-size: 2rem;
 }
 
+.whiteToPlay {
+  background: white;
+  position: absolute;
+  width: 1.2rem;
+  height: 1.2rem;
+  z-index: 0;
+}
 .bi-play-circle-fill {
-  color: green;
-  /* background: white; */
+  color: rgb(5, 185, 5);
+  /* z-index: 4; */
 }
 
 .titleUnderline {
