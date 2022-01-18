@@ -1,5 +1,5 @@
 const numToPlay = function(){
-    numNode= document.querySelectorAll("li::before")
+    numNode= document.querySelectorAll(".listNumber")
     for(let i =0;i<numNode.lengh;i++){
         numNode[i]
     }
