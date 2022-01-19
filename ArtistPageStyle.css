@@ -20,33 +20,35 @@
 
   font-family: "Heebo", sans-serif; /* choose one */
 }
-.albumWord {
+/* .albumWord {
   margin-bottom: 0;
   font-size: 10px;
-}
+} */
 
-.albumTitle {
+/* .albumTitle {
   font-size: 30px;
-}
-.bandLogo {
-  height: 20px;
-  width: 20px;
-}
+} */
+
 .infoAlbum {
   font-size: 13px;
 }
 
 .artist-name-container {
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-start;
-  align-content: center;
-  width: 100%;
-  margin-top: 70px;
+  background-image: url("assets/Queen__Adam_Lambert_-_Live_Around_the_World.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  height: 40%;
+  padding: 0 !important;
+}
+.artist-name {
+  bottom: 0;
+  left: 20px;
 }
 
-.bi-heart {
-  font-size: 1.8rem;
+.patch-check-fill {
+  color: blue;
 }
 .bi-three-dots,
 .bi-play-circle-fill {
@@ -85,3 +87,101 @@
 }
 
 /* -------- */
+/* mirko sidebar code */
+
+* {
+  font-family: "Heebo", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* sidebar classes */
+
+.m-sidebar-height {
+  height: 90vh;
+}
+
+.light-gray-text {
+  color: lightgray;
+}
+
+.dark-gray-text {
+  color: white;
+  opacity: 0.5;
+}
+
+.mid-gray-text {
+  color: white;
+  opacity: 0.7;
+}
+
+.m-text-smaller {
+  font-size: 0.8rem;
+}
+
+.text-1-three-rem {
+  font-size: 1.3rem;
+}
+
+.m-bi-spotify {
+  font-size: 2rem;
+}
+
+.m-text-small,
+.m-bi-house-fill,
+.m-bi-search,
+.m-bi-search,
+.m-bi-plus-square,
+.m-bi-people-fill,
+.m-bi-arrow-down-circle {
+  font-size: 1rem;
+}
+
+.m-truncate {
+  width: 140px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* music player classes */
+
+.m-music-player-section-height {
+  height: 10vh;
+  background-color: black;
+}
+
+.m-bi-heart,
+.m-bi-tv,
+.m-bi-shuffle {
+  font-size: 1rem;
+}
+
+.m-bi-play-circle-fill {
+  font-size: 2rem;
+}
+
+.m-music-player1 {
+  height: 10px;
+  width: 100px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  background-color: lightgray;
+}
+
+.m-music-player2 {
+  height: 10px;
+  width: 200px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background-color: grey;
+}
+
+.m-music-player3 {
+  height: 10px;
+  width: 100px;
+  border-radius: 50px;
+  background-color: lightgray;
+}
+
+/* ----- */
