@@ -189,9 +189,9 @@ text-overflow: ellipsis;
 } 
 .see-all{
     font-size: 16px;
-    line-height: 28px;
+    line-height: 16px;
     font-weight: 700;
-    color:gray;
+    color: #B3B3B3;
     padding-top: 18px;
     text-decoration: none;  
 
