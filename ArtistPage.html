@@ -44,7 +44,8 @@
     <section>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-2 m-sidebar-height bg-dark text-white">
+          <!-- sidebar -->
+          <div class="col-2 m-sidebar-height text-white">
             <aside class="d-flex flex-column">
               <div class="d-flex mt-1">
                 <i class="bi bi-spotify m-bi-spotify"></i>
@@ -271,11 +272,13 @@
               </div>
             </aside>
           </div>
+          <!-- sidebar end -->
 
-          <div id="HomePageBody" class="col-md-10 p-0">
+          <!-- navbar -->
+          <div class="col-md-10 p-0">
             <nav></nav>
+            <!-- img and main title -->
 
-            <!-- TITLE PART -->
             <div class="artist-name-container position-relative">
               <div class="position-absolute artist-name">
                 <p class="mb-0">
@@ -285,27 +288,23 @@
                 <p>37,120,733 monthly listeners</p>
               </div>
             </div>
-
-            <!-- MIDDLE PART....ICONS -->
-
+            <!-- mid page -->
             <section class="pt-2 pl-4 bg-custom">
               <div class="d-flex align-items-center">
-                <!-- <i class="bi bi-play-circle-fill"></i> -->
                 <i class="bi bi-pause-circle-fill"></i>
                 <div class="followButton px-2 mx-3">Follow</div>
                 <i class="bi bi-three-dots"></i>
               </div>
+              <!-- song list -->
 
-              <!-- SONGS -->
-
-              <div class="songsList pl-0 text-muted container">
+              <div class="songsList pl-0 text-muted">
                 <div class="row">
                   <div class="col-md-10">
                     <h5>Popular</h5>
 
                     <div class="row">
                       <div
-                        class="p-2 song d-flex justify-content-between align-items-center"
+                        class="p-2 song d-flex justify-content-start align-items-center"
                       >
                         <div class="col-md-6">
                           <div class="d-flex">
@@ -335,7 +334,7 @@
                     </div>
                     <div class="row">
                       <div
-                        class="p-2 song d-flex justify-content-between align-items-center"
+                        class="p-2 song d-flex justify-content-start align-items-center"
                       >
                         <div class="col-md-6">
                           <div class="d-flex">
@@ -365,7 +364,7 @@
                     </div>
                     <div class="row">
                       <div
-                        class="p-2 song d-flex justify-content-between align-items-center"
+                        class="p-2 song d-flex justify-content-start align-items-center"
                       >
                         <div class="col-md-6">
                           <div class="d-flex">
@@ -395,7 +394,7 @@
                     </div>
                     <div class="row">
                       <div
-                        class="p-2 song d-flex justify-content-between align-items-center"
+                        class="p-2 song d-flex justify-content-start align-items-center"
                       >
                         <div class="col-md-6">
                           <div class="d-flex">
@@ -425,7 +424,7 @@
                     </div>
                     <div class="row">
                       <div
-                        class="p-2 song d-flex justify-content-between align-items-center"
+                        class="p-2 song d-flex justify-content-start align-items-center"
                       >
                         <div class="col-md-6">
                           <div class="d-flex">
@@ -453,16 +452,19 @@
                         </div>
                       </div>
                     </div>
+                    <button class="btn btn-secondary">See more</button>
                   </div>
                   <div class="col-md-2"></div>
                 </div>
               </div>
+              <!-- song list end -->
             </section>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- music player -->
     <section>
       <div
         class="container-fluid m-music-player-section-height d-flex justify-content-between"
