@@ -220,15 +220,16 @@ text-overflow: ellipsis;
   background: rgba(102, 90, 90, 0.61);
     background-color: radial-gradient(circle, rgba(109, 81, 81, 0.568) 1%, rgba(117, 98, 98, 0.486) 49%, rgba(114, 108, 108, 0.507) 94%);
     /* Firefox */
-    -moz-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
     /* WebKit */
-    -webkit-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
     /* Opera */
-    -o-transition: all 0.3s ease-in-out;
+    -o-transition: all 4.3s ease-in-out;
     /* Standard */
-    transition: all 0.3s ease-in-out;
+    transition: all 0.4s ease-in-out;
     cursor: pointer;
 }
+
 .card-top-content
 {
   max-width: 40%;
@@ -285,23 +286,25 @@ text-overflow: ellipsis;
     -o-transition: all 0.3s ease-in-out ;
     /* Standard */
     transition: all 5s ease-in ;
-    transition: all 0.3s ease-out
+    transition: all 0.4s ease-out
 }
 .card-top:hover .playhover{
   opacity: 1;
   animation-name: fadeIn;
-  animation-duration: 0.3s;
+  animation-duration: 0.4s;
+  
+
 }
 .card-container:hover .playhover2{
   opacity: 1;
   animation-name: fadeIn;
-  animation-duration: 0.3s;
+  animation-duration: 0.4s;
   
 
 }
 .card-container:hover .playhover2{
   transform: translateY(-10px);
-  transition-duration: 0.3s
+  transition-duration: 0.4s
 }
 
 
