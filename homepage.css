@@ -57,7 +57,7 @@
 /* music player classes */
 
 .m-music-player-section-height {
-  /* height: 10vh; */
+  height: 10vh;
   background-color: black !important;
 }
 
@@ -100,7 +100,7 @@ body{
     font-family: 'Heebo', sans-serif;
     color: white;
     background: rgb(18,18,18);
-background: linear-gradient(0deg, rgba(18,18,18,1) 70%, rgba(28,4,4,1) 84%, rgba(50,3,3,0.9808298319327731) 93%);
+    background: linear-gradient(0deg, rgba(18,18,18,1) 70%, rgba(28,4,4,1) 84%, rgba(50,3,3,0.9808298319327731) 93%);
     margin: 0;
     padding: 0;
     visibility: 100%;
@@ -126,8 +126,8 @@ background: linear-gradient(0deg, rgba(18,18,18,1) 70%, rgba(28,4,4,1) 84%, rgba
 }
 .profile{
     font-size: 13px;
-    weight: 400;
- }
+}
+ 
 .chevron{
     width: 32px;
     height: 32px;
@@ -145,11 +145,7 @@ background: linear-gradient(0deg, rgba(18,18,18,1) 70%, rgba(28,4,4,1) 84%, rgba
     font-size: 32px;
     margin-bottom: 26px;
 }
-.top-container{
 
-
-
-}
 .img-top{
     margin-bottom: 12px;
     max-width: 67px;
@@ -160,8 +156,9 @@ display: -webkit-box;
 -webkit-line-clamp: 2;
 -webkit-box-orient: vertical;
 overflow: hidden;
-text-overflow: ellipsis;
- } 
+text-overflow: ellipsis; 
+} 
+ 
 .line-clamp2 {
 max-width: 180px;
 display: -webkit-box;  
