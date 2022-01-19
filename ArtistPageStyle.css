@@ -29,8 +29,12 @@
   font-size: 30px;
 } */
 
-.infoAlbum {
+/* .infoAlbum {
   font-size: 13px;
+} */
+h1 {
+  font-weight: 700;
+  font-size: 3.7rem;
 }
 
 .artist-name-container {
@@ -40,32 +44,29 @@
   background-repeat: no-repeat;
   object-fit: cover;
   height: 40%;
-  padding: 0 !important;
 }
 .artist-name {
   bottom: 0;
   left: 20px;
 }
 
-.patch-check-fill {
+.bi-patch-check-fill {
   color: blue;
 }
-.bi-three-dots,
+
 .bi-play-circle-fill {
-  font-size: 2rem;
+  font-size: 3rem;
+  color: rgb(5, 185, 5);
+  /* z-index: 4; */
 }
 
-.whiteToPlay {
+/* .whiteToPlay {
   background: white;
   position: absolute;
   width: 1.2rem;
   height: 1.2rem;
   z-index: 0;
-}
-.bi-play-circle-fill {
-  color: rgb(5, 185, 5);
-  /* z-index: 4; */
-}
+} */
 
 .titleUnderline {
   border-color: #6c757d2a;
