@@ -180,13 +180,24 @@ text-overflow: ellipsis;
     font-weight: 700;
     color: white;
     padding-top: 22px;
+    text-decoration:none
+}
+
+
+.mid-title:hover{
+  text-decoration: underline;
 } 
 .see-all{
     font-size: 16px;
     line-height: 28px;
     font-weight: 700;
-    color: white;
+    color:gray;
     padding-top: 18px;
+    text-decoration: none;  
+
+}
+.see-all:hover{
+  text-decoration: underline;
 
 }    
 
@@ -199,6 +210,9 @@ text-overflow: ellipsis;
  height: 260px;
  border: 1px solid #2422228e;
  background-color: #2422228e;
+ text-decoration: none;
+ color: white;
+ 
  }
 .card-container:hover{
     background: rgba(64, 64, 64, 0.61);
@@ -212,6 +226,7 @@ text-overflow: ellipsis;
     /* Standard */
     transition: all 0.3s ease-in;
     cursor: pointer;
+    text-decoration: none;
 
 
 } 
@@ -221,3 +236,6 @@ text-overflow: ellipsis;
 .img-card{
     width:100%
   }
+  a:link, a:visited, a:active { 
+    text-decoration: none;  
+   }
