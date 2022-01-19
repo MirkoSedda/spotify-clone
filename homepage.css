@@ -98,6 +98,48 @@
 
 /* giorgio classes */
 
+.fade-in {
+  animation: fadeIn 0.6;
+  transform: translateY(-10px);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  25%{
+    opacity: 0.25
+  }
+  50% {
+    opacity: 0.50;
+  }
+  75%{
+    opacity: 0.75
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-out {
+  animation: fadeOut 0.6s both;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;  
+  }
+  25% {
+    opacity: 0.75;
+  }
+  50% {
+    opacity: 0.50;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 body{
     font-family: 'Heebo', sans-serif;
     color: white;
@@ -247,14 +289,21 @@ text-overflow: ellipsis;
 }
 .card-top:hover .playhover{
   opacity: 1;
-  transition: all 0.7s ease-out
+  animation-name: fadeIn;
+  animation-duration: 0.3s;
 }
 .card-container:hover .playhover2{
   opacity: 1;
-  transition: all 0.3s ease-out;
-  transform: translateY(-10px)
+  animation-name: fadeIn;
+  animation-duration: 0.3s;
+  
 
 }
+.card-container:hover .playhover2{
+  transform: translateY(-10px);
+  transition-duration: 0.3s
+}
+
 
 .card-title{
   font-size: 16px;
