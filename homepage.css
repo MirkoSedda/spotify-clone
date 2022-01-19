@@ -58,7 +58,7 @@
 
 .m-music-player-section-height {
   height: 10vh;
-  background-color: black !important;
+  background-color: #181818 !important;
 }
 
 .m-bi-heart,
@@ -218,3 +218,4 @@ text-overflow: ellipsis;
 }
 .img-card{
     width:100%
+  }
