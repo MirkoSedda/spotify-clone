@@ -233,8 +233,8 @@ text-overflow: ellipsis;
  
  }
 .card-container:hover{
-    background: rgba(64, 64, 64, 0.61);
-    background-color: radial-gradient(circle, rgba(64, 64, 64, 0.568) 1%, rgba(53, 53, 53, 0.486) 49%, rgba(48, 48, 48, 0.507) 94%);
+  background: rgba(64, 64, 64, 0.61);
+  background-color: radial-gradient(circle, rgba(64, 64, 64, 0.568) 1%, rgba(53, 53, 53, 0.486) 49%, rgba(48, 48, 48, 0.507) 94%);
     /* Firefox */
     -moz-transition: all 0.3s ease-in-out ;
     /* WebKit */
@@ -242,36 +242,43 @@ text-overflow: ellipsis;
     /* Opera */
     -o-transition: all 0.3s ease-in-out ;
     /* Standard */
-    transition: all 0.3s ease-in-out ;
+    transition: all 5s ease-in ;
+    transition: all 0.3s ease-out
 }
-.card-container:hover:after .playhover{
+.card-top:hover .playhover{
   opacity: 1;
-  /* Firefox */
-  -moz-transition: all 0.3s ease-in;
-  /* WebKit */
-  -webkit-transition: all 0.3s ease-in;
-  /* Opera */
-  -o-transition: all 0.3s ease-in;
-  /* Standard */
-  transition: all 0.3s ease-in;
-  
+  transition: all 0.7s ease-out
+}
+.card-container:hover .playhover2{
+  opacity: 1;
+  transition: all 0.3s ease-out;
+  transform: translateY(-10px)
+
+}
+
+.card-title{
+  font-size: 16px;
+  font-weight: 700;
 }
 .playhover{
 opacity: 0;
 width: 65px;
+position:absolute;
+Right: 3px
 }
-.playhover:hover{
-  
-  opacity: 1;
-  /* Firefox */
-  -moz-transition: all 0.3s ease-in;
-  /* WebKit */
-  -webkit-transition: all 0.3s ease-in;
-  /* Opera */
-  -o-transition: all 0.3s ease-in;
-  /* Standard */
-  transition: all 0.3s ease-in;
+.playhover2{
+  opacity: 0;
+  width: 65px;
+  position:absolute;
+  right: 8px; 
+  bottom: 80px;
+}
 
+
+.card-text{
+  font-size: 14px;
+  max-height: 40px;
+  color: #b3b3b3;
 }
 
 .card-text1{
