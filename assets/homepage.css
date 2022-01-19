@@ -1,3 +1,101 @@
+* {
+  font-family: 'Heebo', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* sidebar classes */
+
+.m-sidebar {
+  height: 90vh;
+  background-color: black !important;
+}
+
+.light-gray-text {
+  color: lightgray;
+}
+
+.dark-gray-text {
+  color: white;
+  opacity: 0.5;
+}
+
+.mid-gray-text {
+  color: white;
+  opacity: 0.7;
+}
+
+.m-text-smaller {
+  font-size: 0.8rem;
+}
+
+.text-1-three-rem {
+  font-size: 1.3rem;
+}
+
+.m-bi-spotify {
+  font-size: 2rem;
+}
+
+.m-text-small,
+.m-bi-house-fill,
+.m-bi-search,
+.m-bi-search,
+.m-bi-plus-square,
+.m-bi-people-fill,
+.m-bi-arrow-down-circle {
+  font-size: 1rem;
+}
+
+.m-truncate {
+  width: 140px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* music player classes */
+
+.m-music-player-section-height {
+  /* height: 10vh; */
+  background-color: black !important;
+}
+
+.m-bi-heart,
+.m-bi-tv,
+.m-bi-shuffle {
+  font-size: 1rem;
+}
+
+.m-bi-play-circle-fill {
+  font-size: 2rem;
+}
+
+.m-music-player1 {
+  height: 10px;
+  width: 100px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  background-color: lightgray;
+}
+
+.m-music-player2 {
+  height: 10px;
+  width: 200px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background-color: grey;
+}
+
+.m-music-player3 {
+  height: 10px;
+  width: 100px;
+  border-radius: 50px;
+  background-color: lightgray;
+}
+
+/* giorgio classes */
+
 body{
     font-family: 'Heebo', sans-serif;
     color: white;
@@ -12,7 +110,7 @@ background: linear-gradient(0deg, rgba(18,18,18,1) 70%, rgba(28,4,4,1) 84%, rgba
 .navbar{
     padding-left:0;
     margin-right: 15px;
-    
+
 }
 #dropdownMenuLink{
     background-color: rgba(0, 0, 0, 0.575);
@@ -48,9 +146,9 @@ background: linear-gradient(0deg, rgba(18,18,18,1) 70%, rgba(28,4,4,1) 84%, rgba
     margin-bottom: 26px;
 }
 .top-container{
-    
-    
-    
+
+
+
 }
 .img-top{
     margin-bottom: 12px;
@@ -77,7 +175,7 @@ text-overflow: ellipsis;
     background-color: rgba(161, 158, 158, 0.192)
 }
 .mid-title{
-    
+
     font-size: 24px;
     line-height: 28px;
     font-weight: 700;
@@ -95,7 +193,7 @@ text-overflow: ellipsis;
 
 .home-container{
     padding-top: 18px;
-    
+
 }
 .card-container{
  width: 10.5rem;
@@ -115,13 +213,11 @@ text-overflow: ellipsis;
     /* Standard */
     transition: all 0.3s ease-in;
     cursor: pointer;
-    
-  
+
+
 } 
 .card-text1{
     width: 125px;
 }
 .img-card{
     width:100%
-    
-}
