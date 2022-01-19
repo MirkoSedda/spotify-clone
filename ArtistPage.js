@@ -16,7 +16,7 @@ const mouseoverSong = function(){
             songNode[i].classList.toggle("highLighting")
             numNode[i].innerText = i+1
             /* numNode[i].classList.toggle("listPlay") */
-            numNode[i].innerHTML= `<span>1</span>`
+            
         })
 
     }

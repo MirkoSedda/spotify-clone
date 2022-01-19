@@ -28,6 +28,9 @@ h1 {
   font-weight: 700;
   font-size: 3.7rem;
 }
+.bi-spotify {
+  color: green;
+}
 
 .artist-name-container {
   background-image: url("assets/Queen__Adam_Lambert_-_Live_Around_the_World.jpg");
