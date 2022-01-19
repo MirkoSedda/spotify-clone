@@ -59,6 +59,8 @@
 .m-music-player-section-height {
   height: 10vh;
   background-color: #181818 !important;
+  position: fixed; bottom: 0;
+
 }
 
 .m-bi-heart,
