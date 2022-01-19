@@ -48,9 +48,14 @@
 .bi-heart {
   font-size: 1.8rem;
 }
-.bi-three-dots,
-.bi-play-circle-fill {
+.bi-three-dots {
   font-size: 2rem;
+}
+.bi-play-circle-fill {
+  font-size: 2.6rem;
+}
+.hidden {
+  opacity: 0;
 }
 
 .whiteToPlay {
@@ -74,6 +79,8 @@
 /* mouseover-songs */
 .highLighting {
   background: rgba(100, 98, 98, 0.692);
+  border-radius: 5px;
+  padding-left: 16px;
 }
 .listPlay {
   width: 0;
@@ -85,3 +92,101 @@
 }
 
 /* -------- */
+/* mirko sidebar code */
+
+* {
+  font-family: "Heebo", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* sidebar classes */
+
+.m-sidebar-height {
+  height: 90vh;
+}
+
+.light-gray-text {
+  color: lightgray;
+}
+
+.dark-gray-text {
+  color: white;
+  opacity: 0.5;
+}
+
+.mid-gray-text {
+  color: white;
+  opacity: 0.7;
+}
+
+.m-text-smaller {
+  font-size: 0.8rem;
+}
+
+.text-1-three-rem {
+  font-size: 1.3rem;
+}
+
+.m-bi-spotify {
+  font-size: 2rem;
+}
+
+.m-text-small,
+.m-bi-house-fill,
+.m-bi-search,
+.m-bi-search,
+.m-bi-plus-square,
+.m-bi-people-fill,
+.m-bi-arrow-down-circle {
+  font-size: 1rem;
+}
+
+.m-truncate {
+  width: 140px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* music player classes */
+
+.m-music-player-section-height {
+  height: 10vh;
+  background-color: black;
+}
+
+.m-bi-heart,
+.m-bi-tv,
+.m-bi-shuffle {
+  font-size: 1rem;
+}
+
+.m-bi-play-circle-fill {
+  font-size: 2rem;
+}
+
+.m-music-player1 {
+  height: 10px;
+  width: 100px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  background-color: lightgray;
+}
+
+.m-music-player2 {
+  height: 10px;
+  width: 200px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background-color: grey;
+}
+
+.m-music-player3 {
+  height: 10px;
+  width: 100px;
+  border-radius: 50px;
+  background-color: lightgray;
+}
+
+/* ----- */
