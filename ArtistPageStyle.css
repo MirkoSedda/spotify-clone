@@ -83,7 +83,7 @@ h1 {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0c0c0d",endColorstr="#2d2b2d",GradientType=1);
 }
 .listNumber {
-  margin-top: 9px;
+  margin-top: 6px;
 }
 .song img {
   width: 35px;
@@ -91,6 +91,10 @@ h1 {
 .seeMore {
   font-size: 14px;
   font-weight: 700;
+}
+.seeMore:hover {
+  color: white !important;
+  cursor: pointer;
 }
 
 /* mouseover-songs */
@@ -105,7 +109,8 @@ h1 {
   border-top: 9px solid transparent;
   border-bottom: 9px solid transparent;
   border-left: 9px solid white;
-  margin-top: 17px;
+  margin-top: 6px;
+  padding-top: 6px;
 }
 .hidden {
   opacity: 0;
