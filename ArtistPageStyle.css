@@ -87,6 +87,7 @@ h1 {
 .listNumber {
   margin-top: 9px;
 }
+
 /* mouseover-songs */
 .highLighting {
   background: rgba(100, 98, 98, 0.692);
@@ -99,7 +100,9 @@ h1 {
   border-left: 9px solid white;
   margin-top: 17px;
 }
-
+.hidden {
+  opacity: 0;
+}
 /* -------- */
 /* mirko sidebar code */
 

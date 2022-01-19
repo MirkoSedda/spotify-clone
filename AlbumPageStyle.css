@@ -48,9 +48,14 @@
 .bi-heart {
   font-size: 1.8rem;
 }
-.bi-three-dots,
-.bi-play-circle-fill {
+.bi-three-dots {
   font-size: 2rem;
+}
+.bi-play-circle-fill {
+  font-size: 2.6rem;
+}
+.hidden {
+  opacity: 0;
 }
 
 .whiteToPlay {
