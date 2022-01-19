@@ -10,6 +10,7 @@
 /* .infoAlbum {
   font-size: 13px;
 } */
+
 h1 {
   font-weight: 700;
   font-size: 3.7rem;
@@ -26,17 +27,35 @@ h1 {
 .artist-name {
   bottom: 0;
   left: 20px;
+  color: white;
 }
 
 .bi-patch-check-fill {
   color: blue;
 }
-
-.bi-play-circle-fill {
+.followButton {
+  color: white;
+  border: white;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  display: inline-block;
+}
+.bi-three-dots {
+  font-size: 1.5rem;
+}
+.bi-pause-circle-fill {
   font-size: 3rem;
   color: rgb(5, 185, 5);
-  /* z-index: 4; */
 }
+.bi-three-dots {
+  color: white;
+}
+/* .bi-play-circle-fill {
+  font-size: 3rem;
+  color: rgb(5, 185, 5);
+  /* z-index: 4; 
+} */
 
 /* .whiteToPlay {
   background: white;
