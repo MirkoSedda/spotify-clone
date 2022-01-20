@@ -110,6 +110,10 @@ h1 {
   cursor: pointer;
 }
 
+.artist-pick {
+  margin-left: 75px !important;
+}
+
 /* 
 .time {
   margin-left: 75px;
