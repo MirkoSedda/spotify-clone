@@ -48,9 +48,17 @@
 .bi-heart {
   font-size: 1.8rem;
 }
+.bi-heart:hover {
+  color: green !important;
+  opacity: 1;
+}
 .bi-three-dots {
   font-size: 2rem;
 }
+.bi-three-dots:hover {
+  color: white !important;
+}
+
 .bi-play-circle-fill {
   font-size: 2.6rem;
 }
