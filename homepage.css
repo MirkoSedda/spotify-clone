@@ -143,11 +143,11 @@
 body{
     font-family: 'Heebo', sans-serif;
     color: white;
-    background: rgb(18,18,18);
+    min-height: 100%;
+    background-color:rgba(18,18,18,1);
     background: linear-gradient(0deg, rgba(18,18,18,1) 70%, rgba(28,4,4,1) 84%, rgba(50,3,3,0.9808298319327731) 93%);
     margin: 0;
     padding: 0;
-    visibility: 100%;
  }
 
 
