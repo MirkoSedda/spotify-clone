@@ -215,6 +215,11 @@ text-overflow: ellipsis;
 .card-top{
     background-color: rgba(161, 158, 158, 0.192);
     text-decoration: none;
+    -webkit-transition: all 0.4s ease-out;
+ -moz-transition: all 0.4s ease-out;
+ -o-transition: all 0.4s ease-out;
+ -ms-transition: all 0.4s ease-out;
+ transition: all 0.4s ease-out;
 }
 .card-top:hover{
   background: rgba(102, 90, 90, 0.61);
@@ -273,6 +278,11 @@ text-overflow: ellipsis;
  background-color: #2422228e;
  text-decoration: none;
  color: white;
+ -webkit-transition: all 0.4s ease-out;
+ -moz-transition: all 0.4s ease-out;
+ -o-transition: all 0.4s ease-out;
+ -ms-transition: all 0.4s ease-out;
+ transition: all 0.4s ease-out;
  
  }
 .card-container:hover{
@@ -299,12 +309,17 @@ text-overflow: ellipsis;
   opacity: 1;
   animation-name: fadeIn;
   animation-duration: 0.4s;
-  
-
+ 
 }
 .card-container:hover .playhover2{
+
+
+ }
+.card-container:hover .playhover2{
   transform: translateY(-10px);
-  transition-duration: 0.4s
+  transition-duration: 0.4s;
+  
+  transition: all 0.3s ease-in-out
 }
 
 
@@ -316,7 +331,12 @@ text-overflow: ellipsis;
 opacity: 0;
 width: 65px;
 position:absolute;
-Right: 3px
+Right: 3px;
+-webkit-transition: all 0.4s ease-out;
+ -moz-transition: all 0.4s ease-out;
+ -o-transition: all 0.4s ease-out;
+ -ms-transition: all 0.4s ease-out;
+ transition: all 0.4s ease-out;
 }
 .playhover2{
   opacity: 0;
@@ -324,6 +344,11 @@ Right: 3px
   position:absolute;
   right: 8px; 
   bottom: 80px;
+  -webkit-transition: all 0.4s ease-out;
+ -moz-transition: all 0.4s ease-out;
+ -o-transition: all 0.4s ease-out;
+ -ms-transition: all 0.4s ease-out;
+ transition: all 0.4s ease-out;
 }
 
 
