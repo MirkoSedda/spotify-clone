@@ -24,6 +24,14 @@
   z-index: 0;
 } */
 
+* {
+  font-family: 'Heebo', sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
 h1 {
   font-weight: 700;
   font-size: 3.7rem;
@@ -38,7 +46,7 @@ h1 {
   background-position: top;
   background-repeat: no-repeat;
   object-fit: cover;
-  height: 50%;
+  height: 46.4%;
 }
 .artist-name {
   bottom: 0;
@@ -85,9 +93,11 @@ h1 {
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0c0c0d",endColorstr="#2d2b2d",GradientType=1);
 }
-.listNumber {
-  margin-top: 6px;
+
+.song {
+  padding-left: 16px;
 }
+
 .song img {
   width: 35px;
 }
@@ -99,34 +109,72 @@ h1 {
   color: white !important;
   cursor: pointer;
 }
+/* 
+.time {
+  margin-left: 75px;
+} */
 
 /* mouseover-songs */
+
 .highLighting {
   background: rgba(100, 98, 98, 0.692);
   border-radius: 5px;
   padding-left: 16px;
 }
+
 .listPlay {
   width: 0;
   height: 0;
   border-top: 9px solid transparent;
   border-bottom: 9px solid transparent;
   border-left: 9px solid white;
-  margin-top: 6px;
-  padding-top: 6px;
 }
+
+.listNumber {
+  height: 20px;
+  width: 20px;
+}
+
+.bi-heart:hover {
+  color: green !important;
+  opacity: 1;
+}
+.bi-three-dots {
+  font-size: 2rem;
+}
+.bi-three-dots:hover {
+  color: white !important;
+}
+
 .hidden {
   opacity: 0;
 }
+
+/* .relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+  top: -17px;
+  right: 0;
+  bottom: 0;
+  left: -30px;
+}
+
+.song:hover .listNumber span {
+  display: none !important;
+}
+
+.song:hover .listNumber .bi-caret-right-fill {
+  display: block !important;
+  opacity: 1;
+}
+
+
+
 /* -------- */
 /* mirko sidebar code */
-
-* {
-  font-family: 'Heebo', sans-serif;
-  color: white;
-  margin: 0;
-  padding: 0;
-}
 
 /* sidebar classes */
 
