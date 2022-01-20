@@ -32,6 +32,42 @@
   overflow: hidden;
 }
 
+.navbar {
+  background-color: rgba(59, 4, 16, 0.981) !important;
+  opacity: 1;
+  z-index: 1;
+  padding-left: 0;
+  margin-right: 3px;
+  position: sticky;
+  top: 0;
+}
+
+#dropdownMenuLink {
+  background-color: rgba(0, 0, 0, 0.575);
+  max-height: 36px;
+  font-size: 12px;
+  border-radius: 50px;
+  color: white;
+}
+#profilePic {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+.profile {
+  font-size: 13px;
+}
+
+.chevron {
+  width: 32px;
+  height: 32px;
+  color: #ddd3d2;
+  padding: 5px;
+  font-size: 1rem;
+  border-radius: 50%;
+  background-color: rgba(48, 45, 45, 0.3);
+}
+
 h1 {
   font-weight: 700;
   font-size: 3.7rem;
@@ -181,11 +217,15 @@ h1 {
 /* -------- */
 /* mirko sidebar code */
 
+/* music player classes */
+
 /* sidebar classes */
 
-.m-sidebar-height {
-  min-height: 90vh;
+.m-sidebar {
+  height: 90vh;
   background-color: black !important;
+  position: sticky;
+  top: 0;
 }
 
 .light-gray-text {
@@ -235,7 +275,9 @@ h1 {
 
 .m-music-player-section-height {
   height: 10vh;
-  background-color: black;
+  background-color: #181818 !important;
+  position: fixed;
+  bottom: 0;
 }
 
 .m-bi-heart,
@@ -270,5 +312,3 @@ h1 {
   border-radius: 50px;
   background-color: lightgray;
 }
-
-/* ----- */
