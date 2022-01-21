@@ -215,16 +215,17 @@ body {
 }
 
 .line-clamp2 {
-  max-width: 180px;
-  display: -webkit-box;
-  -webkit-line-clamp: 1;
-  -webkit-box-orient: vertical;
+  width: 140px;
+  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
 .card-top {
+  height: 100%;
   background-color: rgba(161, 158, 158, 0.192);
+  border-radius: 5px;
+  
   text-decoration: none;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
@@ -251,27 +252,31 @@ body {
   cursor: pointer;
 }
 
+
 .card-top-content {
-  max-width: 40%;
+  max-width: 45%;
+  font-size: 16px;
+  font-weight: 700;
 }
 .mid-title {
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
   color: white;
-  padding-top: 22px;
+  padding-top: 26px;
   text-decoration: none;
 }
 
 .mid-title:hover {
   text-decoration: underline;
 }
+
 .see-all {
   font-size: 16px;
   line-height: 16px;
   font-weight: 700;
   color: #b3b3b3;
-  padding-top: 18px;
+  margin-top: 45px;
   text-decoration: none;
 }
 .see-all:hover {
@@ -282,11 +287,13 @@ body {
   padding-top: 18px;
 }
 .card-container {
-  width: 10.5rem;
+  width: 175px;
   height: 260px;
-  border: 1px solid #2422228e;
+  border: 1px  #2422228e;
+  border-radius: 5px;
   background-color: #2422228e;
   text-decoration: none;
+  
   color: white;
   -webkit-transition: all 0.4s ease-out;
   -moz-transition: all 0.4s ease-out;
@@ -350,8 +357,8 @@ body {
   opacity: 0;
   width: 65px;
   position: absolute;
-  right: 8px;
-  bottom: 80px;
+  right: 12px;
+  bottom: 85px;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
@@ -369,7 +376,24 @@ body {
   width: 125px;
 }
 .img-card {
-  width: 100%;
+  width: 145px;
+  -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+.img-card2 {
+  width: 145px;
+  height: 145px;
+  border-radius:50%;
+  -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+  
+  
+  
+}
+.subtitle{
+  font-size: 14px;
+  color:#777272 
+  
 }
 
 a:link,
