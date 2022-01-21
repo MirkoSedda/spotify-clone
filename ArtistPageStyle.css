@@ -123,6 +123,10 @@ h1 {
 
 /* -------- */
 
+.hiddenSong {
+  display: none;
+}
+
 /* navbar */
 .navbar {
   background-color: black !important;

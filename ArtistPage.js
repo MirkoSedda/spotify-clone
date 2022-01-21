@@ -21,3 +21,16 @@ const mouseoverSong = function () {
   }
 }
 mouseoverSong()
+
+const expander = function(){
+  const seeMoreNode = document.querySelector(".seeMore")
+  const hiddenSongNode = document.getElementsByClassName("hiddenSong")
+
+  seeMoreNode.addEventListener("click",function(e){
+    for(let i =0;i<hiddenSongNode.length;i++){
+      hiddenSongNode[i].classList.remove("hiddenSong")
+    }
+
+  })
+}
+expander()
