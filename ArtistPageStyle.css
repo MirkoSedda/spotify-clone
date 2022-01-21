@@ -64,47 +64,7 @@ h1 {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0c0c0d",endColorstr="#2d2b2d",GradientType=1);
   height: 100%;
 }
-/* navbar */
-.navbar {
-  background-color: transparent !important;
-  z-index: 1;
-  padding-left: 15px;
-  margin-right: 3px;
-  position: sticky;
-  top: 0;
-}
-.top-title {
-  margin-top: 26px;
-  font-weight: 700;
-  line-height: 48px;
-  font-size: 32px;
-  margin-bottom: 26px;
-}
-.chevron {
-  width: 32px;
-  height: 32px;
-  color: #ddd3d2;
-  padding: 5px;
-  font-size: 1rem;
-  border-radius: 50%;
-  background-color: rgba(48, 45, 45, 0.3);
-}
-#dropdownMenuLink {
-  background-color: rgba(0, 0, 0, 0.575);
-  max-height: 36px;
-  font-size: 12px;
-  border-radius: 50px;
-  color: white;
-}
-#profilePic {
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-}
-.profile {
-  font-size: 13px;
-}
-/* ------ */
+
 .song {
   padding-left: 16px;
 }
@@ -157,6 +117,49 @@ h1 {
 }
 
 /* -------- */
+
+/* navbar */
+.navbar {
+  background-color: transparent !important;
+  z-index: 1;
+  padding-left: 15px;
+  margin-right: 3px;
+  position: sticky;
+  top: 0;
+}
+.top-title {
+  margin-top: 26px;
+  font-weight: 700;
+  line-height: 48px;
+  font-size: 32px;
+  margin-bottom: 26px;
+}
+.chevron {
+  width: 32px;
+  height: 32px;
+  color: #ddd3d2;
+  padding: 5px;
+  font-size: 1rem;
+  border-radius: 50%;
+  background-color: rgba(48, 45, 45, 0.3);
+}
+#dropdownMenuLink {
+  background-color: rgba(0, 0, 0, 0.575);
+  max-height: 36px;
+  font-size: 12px;
+  border-radius: 50px;
+  color: white;
+}
+#profilePic {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+.profile {
+  font-size: 13px;
+}
+/* ------ */
+
 /* mirko sidebar code */
 
 .m-sidebar-height {
