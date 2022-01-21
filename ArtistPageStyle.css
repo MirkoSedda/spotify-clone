@@ -84,6 +84,10 @@ h1 {
   margin-left: 75px !important;
 }
 
+.artistPickPhoto {
+  width: 75px;
+}
+
 /* mouseover-songs */
 
 .highLighting {
@@ -115,12 +119,15 @@ h1 {
 .hidden {
   opacity: 0;
 }
+.bandLogo {
+  width: 30px;
+}
 
 /* -------- */
 
 /* navbar */
 .navbar {
-  background-color: transparent !important;
+  background-color: black !important;
   z-index: 1;
   padding-left: 15px;
   margin-right: 3px;
