@@ -265,6 +265,10 @@ body {
   font-weight: 700;
   
 }
+.totalContainer {
+  margin-left: 3px;
+  margin-right: 3px;
+}
 .mid-title {
   font-size: 24px;
   line-height: 28px;
