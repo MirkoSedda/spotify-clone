@@ -257,7 +257,79 @@
         <!-- sidebar end -->
         <!-- navbar -->
         <div class="col-md-10 px-0 mx-0">
-          <nav></nav>
+          <nav class="navbar navbar-expand-lg m-0">
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <div class="nav-arrows-con">
+                    <a class="nav-link" href="#">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="currentColor"
+                        class="bi chevron bi-chevron-left"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+                </li>
+                <li class="nav-item disabled">
+                  <div class="nav-arrows-con disabled ml-3">
+                    <a class="nav-link" href="#">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="currentColor"
+                        class="bi chevron bi-chevron-right"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+                </li>
+              </ul>
+              <span class="navbar-text">
+                <div
+                  class="collapse navbar-collapse d-flex h-100"
+                  id="navbarNavDropdown"
+                >
+                  <ul class="navbar-nav">
+                    <div class="dropdown profile d-flex">
+                      <a
+                        class="btn dropdown-toggle profile text-white justify-content-start dropdown-item1"
+                        href="#"
+                        role="button"
+                        id="dropdownMenuLink"
+                        data-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        <img
+                          src="assets/diego.jpg"
+                          class="img-fluid justify-content-start"
+                          id="profilePic"
+                          alt=""
+                        />
+                        <span class="profile">Diego "Ziba" Banovaz</span>
+                      </a>
+                    </div>
+                  </ul>
+                </div>
+
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item1" href="#">Account</a>
+                  <a class="dropdown-item1" href="#">Profile</a>
+                  <a class="dropdown-item1" href="#">Exit</a>
+                </div>
+              </span>
+            </div>
+          </nav>
           <!-- img and main title start -->
           <div class="artist-name-container position-relative">
             <div class="position-absolute artist-name">
@@ -272,151 +344,309 @@
           <div class="pt-2 pl-4 bg-custom">
             <div class="d-flex align-items-center">
               <i class="bi bi-pause-circle-fill"></i>
-              <div class="followButton px-2 mx-3">Follow</div>
-              <i class="bi bi-three-dots"></i>
+              <div class="followButton px-3 mx-4">Follow</div>
+              <i class="bi bi-three-dots text-muted"></i>
             </div>
             <!-- song list start -->
             <div class="container-fluid">
-              <div class="d-flex justify-content-between">
-                <span class="h5">Popular</span>
-                <span class="h5 artist-pick">Artist pick</span>
-              </div>
-            </div>
-            <div class="songsList pl-0 text-muted">
-              <div class="row">
-                <div class="col-md-9">
-                  <div class="row song">
-                    <div class="col-md-6 d-flex align-items-center">
-                      <span class="listNumber text-muted">1</span>
-                      <img
-                        src="./assets/bite_the_dust.jfif"
-                        alt=""
-                        class="ml-2"
-                      />
-                      <p class="pl-3 m-0 text-white">
-                        Another One Bites The Dust - Remastered 2011 <br />
-                      </p>
-                    </div>
-                    <div
-                      class="col-md-3 d-flex justify-content-center align-items-center"
-                    >
-                      <div>
-                        <span class="text-muted text-right">1,013,238,772</span>
+          
+             <div class="row">
+               <div class="col col-md-8">
+                <div class="songsList pl-0 text-muted">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <span class="h5 ">Popular</span>
+                      <div class="row song mt-3">
+                        <div class="col-md-6 d-flex align-items-center">
+                          <span class="listNumber text-muted">1</span>
+                          <img
+                            src="./assets/bite_the_dust.jfif"
+                            alt=""
+                            class="ml-2"
+                          />
+                          <p class="pl-3 m-0 text-white">
+                            Another One Bites The Dust - Remastered 2011 <br />
+                          </p>
+                        </div>
+                        <div
+                          class="col-md-3 d-flex justify-content-center align-items-center"
+                        >
+                          <div>
+                            <span class="text-muted text-right">1,013,238,772</span>
+                          </div>
+                        </div>
+                        <div class="col-md-3 d-flex align-items-center">
+                          <i class="bi bi-heart hidden heartSong pr-1"></i>
+                          <span class="text-muted time px-3">3:34</span>
+                          <i class="bi bi-three-dots hidden threeDotsSong"></i>
+                        </div>
                       </div>
-                    </div>
-                    <div class="col-md-3 d-flex align-items-center">
-                      <i class="bi bi-heart hidden heartSong pr-1"></i>
-                      <span class="text-muted time px-3">3:34</span>
-                      <i class="bi bi-three-dots hidden threeDotsSong"></i>
-                    </div>
-                  </div>
-                  <div class="row song">
-                    <div class="col-md-6 d-flex align-items-center">
-                      <span class="listNumber text-muted">2</span>
-                      <img
-                        src="./assets/bohemian_rapsody.jfif"
-                        alt=""
-                        class="ml-2"
-                      />
-                      <p class="pl-3 m-0 text-white">
-                        Bohemian Rapsody- Remastered 2011<br />
-                      </p>
-                    </div>
-                    <div
-                      class="col-md-3 d-flex justify-content-center align-items-center"
-                    >
-                      <div>
-                        <span class="text-muted text-right">1,497,986,258</span>
+                      <div class="row song">
+                        <div class="col-md-6 d-flex align-items-center">
+                          <span class="listNumber text-muted">2</span>
+                          <img
+                            src="./assets/bohemian_rapsody.jfif"
+                            alt=""
+                            class="ml-2"
+                          />
+                          <p class="pl-3 m-0 text-white">
+                            Bohemian Rapsody- Remastered 2011<br />
+                          </p>
+                        </div>
+                        <div
+                          class="col-md-3 d-flex justify-content-center align-items-center"
+                        >
+                          <div>
+                            <span class="text-muted text-right">1,497,986,258</span>
+                          </div>
+                        </div>
+                        <div class="col-md-3 d-flex align-items-center">
+                          <i class="bi bi-heart hidden heartSong pr-1"></i>
+                          <span class="text-muted time px-3">5:54</span>
+                          <i class="bi bi-three-dots hidden threeDotsSong"></i>
+                        </div>
                       </div>
-                    </div>
-                    <div class="col-md-3 d-flex align-items-center">
-                      <i class="bi bi-heart hidden heartSong pr-1"></i>
-                      <span class="text-muted time px-3">5:54</span>
-                      <i class="bi bi-three-dots hidden threeDotsSong"></i>
-                    </div>
-                  </div>
-                  <div class="row song">
-                    <div class="col-md-6 d-flex align-items-center">
-                      <span class="listNumber text-muted">3</span>
-                      <img
-                        src="./assets/dont_stop_me_now.jfif"
-                        alt=""
-                        class="ml-2"
-                      />
-                      <p class="pl-3 m-0 text-white">
-                        Don't Stop Me Now - Remastered 2011<br />
-                      </p>
-                    </div>
-                    <div
-                      class="col-md-3 d-flex justify-content-center align-items-center"
-                    >
-                      <div>
-                        <span class="text-muted text-right">1,063,959,983</span>
+                      <div class="row song">
+                        <div class="col-md-6 d-flex align-items-center">
+                          <span class="listNumber text-muted">3</span>
+                          <img
+                            src="./assets/dont_stop_me_now.jfif"
+                            alt=""
+                            class="ml-2"
+                          />
+                          <p class="pl-3 m-0 text-white">
+                            Don't Stop Me Now - Remastered 2011<br />
+                          </p>
+                        </div>
+                        <div
+                          class="col-md-3 d-flex justify-content-center align-items-center"
+                        >
+                          <div>
+                            <span class="text-muted text-right">1,063,959,983</span>
+                          </div>
+                        </div>
+                        <div class="col-md-3 d-flex align-items-center">
+                          <i class="bi bi-heart hidden heartSong pr-1"></i>
+                          <span class="text-muted time px-3">3:29</span>
+                          <i class="bi bi-three-dots hidden threeDotsSong"></i>
+                        </div>
                       </div>
-                    </div>
-                    <div class="col-md-3 d-flex align-items-center">
-                      <i class="bi bi-heart hidden heartSong pr-1"></i>
-                      <span class="text-muted time px-3">3:29</span>
-                      <i class="bi bi-three-dots hidden threeDotsSong"></i>
-                    </div>
-                  </div>
-                  <div class="row song">
-                    <div class="col-md-6 d-flex align-items-center">
-                      <span class="listNumber text-muted">4</span>
-                      <img
-                        src="./assets/under_pressure.jfif"
-                        alt=""
-                        class="ml-2"
-                      />
-                      <p class="pl-3 m-0 text-white">
-                        Under Pressure - Remastered 2011<br />
-                      </p>
-                    </div>
-                    <div
-                      class="col-md-3 d-flex justify-content-center align-items-center"
-                    >
-                      <div>
-                        <span class="text-muted text-right">900,225,096</span>
+                      <div class="row song">
+                        <div class="col-md-6 d-flex align-items-center">
+                          <span class="listNumber text-muted">4</span>
+                          <img
+                            src="./assets/under_pressure.jfif"
+                            alt=""
+                            class="ml-2"
+                          />
+                          <p class="pl-3 m-0 text-white">
+                            Under Pressure - Remastered 2011<br />
+                          </p>
+                        </div>
+                        <div
+                          class="col-md-3 d-flex justify-content-center align-items-center"
+                        >
+                          <div>
+                            <span class="text-muted text-right">900,225,096</span>
+                          </div>
+                        </div>
+                        <div class="col-md-3 d-flex align-items-center">
+                          <i class="bi bi-heart hidden heartSong pr-1"></i>
+                          <span class="text-muted time px-3">4:08</span>
+                          <i class="bi bi-three-dots hidden threeDotsSong"></i>
+                        </div>
                       </div>
-                    </div>
-                    <div class="col-md-3 d-flex align-items-center">
-                      <i class="bi bi-heart hidden heartSong pr-1"></i>
-                      <span class="text-muted time px-3">4:08</span>
-                      <i class="bi bi-three-dots hidden threeDotsSong"></i>
-                    </div>
-                  </div>
-                  <div class="row song">
-                    <div class="col-md-6 d-flex align-items-center">
-                      <span class="listNumber text-muted">5</span>
-                      <img
-                        src="./assets/we_will_rock_u.jfif"
-                        alt=""
-                        class="ml-2"
-                      />
-                      <p class="pl-3 m-0 text-white">
-                        We Will Rock You - Remastered<br />
-                      </p>
-                    </div>
-                    <div
-                      class="col-md-3 d-flex justify-content-center align-items-center"
-                    >
-                      <div>
-                        <span class="text-muted text-right">705,225,721</span>
+                      <div class="row song">
+                        <div class="col-md-6 d-flex align-items-center">
+                          <span class="listNumber text-muted">5</span>
+                          <img
+                            src="./assets/we_will_rock_u.jfif"
+                            alt=""
+                            class="ml-2"
+                          />
+                          <p class="pl-3 m-0 text-white">
+                            We Will Rock You - Remastered<br />
+                          </p>
+                        </div>
+                        <div
+                          class="col-md-3 d-flex justify-content-center align-items-center"
+                        >
+                          <div>
+                            <span class="text-muted text-right">705,225,721</span>
+                          </div>
+                        </div>
+                        <div class="col-md-3 d-flex align-items-center">
+                          <i class="bi bi-heart hidden heartSong pr-1"></i>
+                          <span class="text-muted time px-3">2:02</span>
+                          <i class="bi bi-three-dots hidden threeDotsSong"></i>
+                        </div>
                       </div>
-                    </div>
-                    <div class="col-md-3 d-flex align-items-center">
-                      <i class="bi bi-heart hidden heartSong pr-1"></i>
-                      <span class="text-muted time px-3">2:02</span>
-                      <i class="bi bi-three-dots hidden threeDotsSong"></i>
-                    </div>
-                  </div>
+                      <!-- hidden songs -->
+                      
+                      <div class="row song hiddenSong">
+                        <div class="col-md-6 d-flex align-items-center">
+                          <span class="listNumber text-muted">5</span>
+                          <img
+                            src="./assets/we_will_rock_u.jfif"
+                            alt=""
+                            class="ml-2"
+                          />
+                          <p class="pl-3 m-0 text-white">
+                            We Will Rock You - Remastered<br />
+                          </p>
+                        </div>
+                        <div
+                          class="col-md-3 d-flex justify-content-center align-items-center"
+                        >
+                          <div>
+                            <span class="text-muted text-right">705,225,721</span>
+                          </div>
+                        </div>
+                        <div class="col-md-3 d-flex align-items-center">
+                          <i class="bi bi-heart hidden heartSong pr-1"></i>
+                          <span class="text-muted time px-3">2:02</span>
+                          <i class="bi bi-three-dots hidden threeDotsSong"></i>
+                        </div>
+                      </div>
+                      
+                      <div class="row song hiddenSong">
+                        <div class="col-md-6 d-flex align-items-center">
+                          <span class="listNumber text-muted">5</span>
+                          <img
+                            src="./assets/we_will_rock_u.jfif"
+                            alt=""
+                            class="ml-2"
+                          />
+                          <p class="pl-3 m-0 text-white">
+                            We Will Rock You - Remastered<br />
+                          </p>
+                        </div>
+                        <div
+                          class="col-md-3 d-flex justify-content-center align-items-center"
+                        >
+                          <div>
+                            <span class="text-muted text-right">705,225,721</span>
+                          </div>
+                        </div>
+                        <div class="col-md-3 d-flex align-items-center">
+                          <i class="bi bi-heart hidden heartSong pr-1"></i>
+                          <span class="text-muted time px-3">2:02</span>
+                          <i class="bi bi-three-dots hidden threeDotsSong"></i>
+                        </div>
+                      </div>
+                      
+                      <div class="row song hiddenSong">
+                        <div class="col-md-6 d-flex align-items-center">
+                          <span class="listNumber text-muted">5</span>
+                          <img
+                            src="./assets/we_will_rock_u.jfif"
+                            alt=""
+                            class="ml-2"
+                          />
+                          <p class="pl-3 m-0 text-white">
+                            We Will Rock You - Remastered<br />
+                          </p>
+                        </div>
+                        <div
+                          class="col-md-3 d-flex justify-content-center align-items-center"
+                        >
+                          <div>
+                            <span class="text-muted text-right">705,225,721</span>
+                          </div>
+                        </div>
+                        <div class="col-md-3 d-flex align-items-center">
+                          <i class="bi bi-heart hidden heartSong pr-1"></i>
+                          <span class="text-muted time px-3">2:02</span>
+                          <i class="bi bi-three-dots hidden threeDotsSong"></i>
+                        </div>
+                      </div>
+                      
+                      <div class="row song hiddenSong">
+                        <div class="col-md-6 d-flex align-items-center">
+                          <span class="listNumber text-muted">5</span>
+                          <img
+                            src="./assets/we_will_rock_u.jfif"
+                            alt=""
+                            class="ml-2"
+                          />
+                          <p class="pl-3 m-0 text-white">
+                            We Will Rock You - Remastered<br />
+                          </p>
+                        </div>
+                        <div
+                          class="col-md-3 d-flex justify-content-center align-items-center"
+                        >
+                          <div>
+                            <span class="text-muted text-right">705,225,721</span>
+                          </div>
+                        </div>
+                        <div class="col-md-3 d-flex align-items-center">
+                          <i class="bi bi-heart hidden heartSong pr-1"></i>
+                          <span class="text-muted time px-3">2:02</span>
+                          <i class="bi bi-three-dots hidden threeDotsSong"></i>
+                        </div>
+                      </div>
+                      
+                      <div class="row song hiddenSong">
+                        <div class="col-md-6 d-flex align-items-center">
+                          <span class="listNumber text-muted">5</span>
+                          <img
+                            src="./assets/we_will_rock_u.jfif"
+                            alt=""
+                            class="ml-2"
+                          />
+                          <p class="pl-3 m-0 text-white">
+                            We Will Rock You - Remastered<br />
+                          </p>
+                        </div>
+                        <div
+                          class="col-md-3 d-flex justify-content-center align-items-center"
+                        >
+                          <div>
+                            <span class="text-muted text-right">705,225,721</span>
+                          </div>
+                        </div>
+                        <div class="col-md-3 d-flex align-items-center">
+                          <i class="bi bi-heart hidden heartSong pr-1"></i>
+                          <span class="text-muted time px-3">2:02</span>
+                          <i class="bi bi-three-dots hidden threeDotsSong"></i>
+                        </div>
+                      </div>
 
-                  <span class="text-muted m-2">See more</span>
-                </div>
-                <!-- left side bar start -->
-                <div class="col-md-3 text-white"></div>
-                <!-- left side bar ends  -->
-              </div>
+
+
+                      <span class="text-muted m-2 seeMore">See more</span>
+                    </div>
+                    <!-- Right side bar start -->
+                  
+                    </div>
+                    <!-- Right side bar ends  -->
+                  </div>
+               </div>
+               <div class="col col-md-4">
+                 <span class="h5">Artist Pick</span>
+                 <div class="mt-3 d-flex">
+                   <div class="mr-3">
+                     <img style="height:100px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw7pIvLA2CfFp2DcB_FSCCq8s0FSFvJq_LmQ&usqp=CAU"/>
+                   </div>
+                   <div class=" d-flex flex-column justify-content-between">
+                     <div>
+                      <img style="height:27px;width:27px; object-fit: cover; border-radius: 50%;" src="https://www.aqueenofmagic.com/wp-content/uploads/2020/12/Queen-mid-70s-approved-photo-04-web-optimised-1000.jpg" alt="Band Logo">
+                       <span class="ml-1 text-muted">Posted By Queen</span>
+                     </div>
+                     <div class="d-flex flex-column">
+                       <b>Queen Best Of</b>
+                       <span class="text-muted">Playlist</span>
+                     </div>
+
+                   </div>
+
+                 </div>
+               </div>
+             </div>
+            
+            
+            </div>
             </div>
             <!-- song list ends -->
           </div>
@@ -431,7 +661,7 @@
     <!-- music player -->
     <section>
       <div
-        class="container-fluid m-music-player-section-height d-flex justify-content-between"
+        class="container-fluid bg-dark m-music-player-section-height d-flex justify-content-between"
       >
         <!-- left side music player-->
         <div class="d-flex align-items-center">
