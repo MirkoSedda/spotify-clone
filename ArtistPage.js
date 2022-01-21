@@ -8,27 +8,16 @@ const mouseoverSong = function () {
       songNode[i].classList.add('highLighting')
       numNode[i].innerText = ' '
       numNode[i].classList.add('listPlay')
-      heartNode[i].classList.toggle('hidden')
-      threeDotsNode[i].classList.toggle('hidden')
+      heartNode[i].classList.remove('hidden')
+      threeDotsNode[i].classList.remove('hidden')
     })
     songNode[i].addEventListener('mouseleave', function (e) {
       songNode[i].classList.toggle('highLighting')
       numNode[i].innerText = i + 1
       numNode[i].classList.toggle('listPlay')
-      heartNode[i].classList.toggle('hidden')
-      threeDotsNode[i].classList.toggle('hidden')
+      heartNode[i].classList.add('hidden')
+      threeDotsNode[i].classList.add('hidden')
     })
   }
-
-  // for (let i = 0; i < songNode.length; i++) {
-  //   songNode[i].addEventListener('mouseleave', function (e) {
-  //     songNode[i].classList.toggle('highLighting')
-  //     numNode[i].innerText = i + 1
-  //     numNode[i].classList.toggle('listPlay')
-  //     heartNode[i].classList.toggle('hidden')
-  //     threeDotsNode[i].classList.toggle('hidden')
-  //   })
-  // }
 }
-
 mouseoverSong()
